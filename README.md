@@ -60,7 +60,7 @@ Los más importantes actualmente son:
 
 - **type**: Es un número que IFC.js utiliza para referenciar a la clase IFC.
 
-### - label filed
+### - label field
 
 Son etiquetas tales como, **brickwork**, **structure**, **electricity**, etc.
 

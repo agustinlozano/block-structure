@@ -52,10 +52,13 @@ Cada uno de los elementos en el array **elements** tiene un conjunto de objetos,
 Campos como, _**OwnerHistory**_,  _**Name**_, _**Description**_, son devueltos por la librería y al día de hoy están bajo revisión, muy probablemnte sean discriminados en el futuro. Lo mismo aplica para subcampos _**description**_ y _**type**_.
 
 Los más importantes actualmente son:
-**expressID**: Es un identificador de IFC (no es confiable debido a que es propenso a colisión). Es útil desde el mapeo que se realiza del lado del cliente.
-**btzDescription**: Es un parámetro que los modeladores BIM nos facilitan desde herramientas como Revit.
-**hasProperties**: Es un array que contiene los expressID de las clases IFC ligadas a un bloque.
-**type**: Es un número que IFC.js utiliza para referenciar a la clase IFC.
+- **expressID**: Es un identificador de IFC (no es confiable debido a que es propenso a colisión). Es útil desde el mapeo que se realiza del lado del cliente.
+
+- **btzDescription**: Es un parámetro que los modeladores BIM nos facilitan desde herramientas como Revit.
+
+- **hasProperties**: Es un array que contiene los expressID de las clases IFC ligadas a un bloque.
+
+- **type**: Es un número que IFC.js utiliza para referenciar a la clase IFC.
 
 ### - label filed
 

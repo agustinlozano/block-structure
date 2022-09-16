@@ -1,0 +1,114 @@
+[
+  {
+    "expressID": 512,
+    "btzDescription": "Muros exteriores PB",
+    "type": 1451395588,
+    "GlobalId": {
+      "type": 1,
+      "value": "1rj4YnIav09AtqlDAEtLco"
+    },
+    "OwnerHistory": {
+      "type": 5,
+      "value": 41
+    },
+    "Name": {
+      "type": 1,
+      "value": "Texto"
+    },
+    "Description": null,
+    "HasProperties": [
+      {
+        "type": 5,
+        "value": 455
+      },
+      {
+        "type": 5,
+        "value": 456
+      }
+    ]
+  },
+  {
+    "expressID": 617,
+    "btzDescription": "Muros exteriores PB",
+    "type": 1451395588,
+    "GlobalId": {
+      "type": 1,
+      "value": "1rj4YnIav09AtqlDAEtLfX"
+    },
+    "OwnerHistory": {
+      "type": 5,
+      "value": 41
+    },
+    "Name": {
+      "type": 1,
+      "value": "Texto"
+    },
+    "Description": null,
+    "HasProperties": [
+      {
+        "type": 5,
+        "value": 585
+      },
+      {
+        "type": 5,
+        "value": 586
+      }
+    ]
+  },
+  {
+    "expressID": 698,
+    "btzDescription": "Muros exteriores PB",
+    "type": 1451395588,
+    "GlobalId": {
+      "type": 1,
+      "value": "1rj4YnIav09AtqlDAEtLho"
+    },
+    "OwnerHistory": {
+      "type": 5,
+      "value": 41
+    },
+    "Name": {
+      "type": 1,
+      "value": "Texto"
+    },
+    "Description": null,
+    "HasProperties": [
+      {
+        "type": 5,
+        "value": 665
+      },
+      {
+        "type": 5,
+        "value": 666
+      }
+    ]
+  },
+  {
+    "expressID": 778,
+    "btzDescription": "Muros exteriores PB",
+    "type": 1451395588,
+    "GlobalId": {
+      "type": 1,
+      "value": "1rj4YnIav09AtqlDAEtLh0"
+    },
+    "OwnerHistory": {
+      "type": 5,
+      "value": 41
+    },
+    "Name": {
+      "type": 1,
+      "value": "Texto"
+    },
+    "Description": null,
+    "HasProperties": [
+      {
+        "type": 5,
+        "value": 746
+      },
+      {
+        "type": 5,
+        "value": 747
+      }
+    ]
+  }
+]

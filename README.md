@@ -3,9 +3,9 @@ Esta documentación corresponde a la nueva estructura de bloques parseada desde 
 
 ## Block structure
 
-Nuestros bloques son representados con objetos y en sus campos vamos a encontrar los siguientes campos, **btzCode**, **elements**, **labels**.
+Nuestros bloques son representados con objetos que contienen los siguientes campos, **btzCode**, **elements**, **labels**.
 
-```JSON
+```JS
 {
 	btzCode :: String,
 	elements :: Array<Object>,
@@ -16,18 +16,10 @@ Nuestros bloques son representados con objetos y en sus campos vamos a encontrar
 - elements, es un conjunto de objetos que contiene todo los elementos IFC.
 - labels, las etiquetas que están ligadas a ese bloque.  
 
-### Element field
-Cada uno de los elementos en el array **elements** tiene actualmente la siguiente estructura.
+### - Element field
+Cada uno de los elementos en el array **elements** tiene un conjunto de objetos, actualmente esos objetos tienen la siguiente estructura.
 
-Campos como, _**OwnerHistory**_,  _**Name**_, _**Description**_, son devueltos por la librería y al día de hoy están bajo revisión, muy probablemnte sean discriminados en el futuro. Lo mismo aplica para subcampos _**description**_ y _**type**_.
-
-Los más importantes actualmente son:
-**expressID**: Es un identificador de IFC (no es confiable debido a que es propenso a colisión). Es útil desde el mapeo que se realiza del lado del cliente.
-**btzDescription**: Es un parámetro que los modeladores BIM nos facilitan desde herramientas como Revit.
-**hasProperties**: Es un array que contiene los expressID de las clases IFC ligadas a un bloque.
-**type**: Es un número que IFC.js utiliza para referenciar a la clase IFC.
-
-```JSON
+```JS
 {
 	"expressID" :: Number,
 	"btzDescription" :: String,
@@ -57,14 +49,21 @@ Los más importantes actualmente son:
    ]
 }
 ```
+Campos como, _**OwnerHistory**_,  _**Name**_, _**Description**_, son devueltos por la librería y al día de hoy están bajo revisión, muy probablemnte sean discriminados en el futuro. Lo mismo aplica para subcampos _**description**_ y _**type**_.
 
-### label filed
+Los más importantes actualmente son:
+**expressID**: Es un identificador de IFC (no es confiable debido a que es propenso a colisión). Es útil desde el mapeo que se realiza del lado del cliente.
+**btzDescription**: Es un parámetro que los modeladores BIM nos facilitan desde herramientas como Revit.
+**hasProperties**: Es un array que contiene los expressID de las clases IFC ligadas a un bloque.
+**type**: Es un número que IFC.js utiliza para referenciar a la clase IFC.
+
+### - label filed
 
 Son etiquetas tales como, **brickwork**, **structure**, **electricity**, etc.
 
-```JSON
+```JS
 {
-	"alia" :: String,
+	"alias" :: String,
 	"weight" :: Number
 }
 ```
